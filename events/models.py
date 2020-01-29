@@ -5,4 +5,4 @@ class Event(models.Model):
     event_date = models.DateTimeField('Event Date')
     venue = models.CharField(max_length=120)
     manager = models.CharField(max_length=60)
-    description = models.TextField(blank=true)
+    description = models.TextField(blank=True)
